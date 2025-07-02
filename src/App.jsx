@@ -17,12 +17,12 @@ function App() {
         <About/>
         <Projects/>
         <Skills/>
+        <br />
+      <br />
+      <br />
+      <br />
+      <br />
       </SectionContainer>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
     </>
   )
 }
