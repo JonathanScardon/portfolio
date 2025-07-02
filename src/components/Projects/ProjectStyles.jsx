@@ -44,6 +44,11 @@ box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
 
 color: #CCCCCC;
 
+
+
+
+font-family: 'Cascadia Code', monospace;
+
 `
 
 

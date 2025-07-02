@@ -27,9 +27,7 @@ function About(){
                     </div>
             </Intro>
             <Headshot src="/public/images/Headshot.JPG" alt="" />
-
         </AboutContainer>
-
     )
 }
 
