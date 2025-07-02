@@ -8,6 +8,8 @@ justify-content: space-between;
 gap: 1rem;
 padding-top: 50px;
 padding-bottom: 50px;
+
+height: 1000px;
 `
 
 
