@@ -6,10 +6,10 @@ display: flex;
 align-items: center;
 justify-content: space-between;
 gap: 1rem;
-padding-top: 50px;
+// padding-top: 50px;
 padding-bottom: 50px;
 
-height: 1000px;
+// height: 1000px;
 `
 
 

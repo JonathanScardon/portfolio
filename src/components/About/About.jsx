@@ -1,12 +1,14 @@
 import {AboutContainer, Headshot, Intro} from './AboutStyles.jsx'
+import {Subheading} from '../../globalStyles.jsx'
 
 function About(){
     return(
+
+        <>
+        <Subheading>About</Subheading>
+
         <AboutContainer>
             <Intro>
-                <h1>
-                    Hi, I'm Jonathan!
-                </h1>
                 <div>
                         Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat.
                         In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus 
@@ -28,6 +30,8 @@ function About(){
             </Intro>
             <Headshot src="/public/images/Headshot.JPG" alt="" />
         </AboutContainer>
+
+        </>
     )
 }
 
