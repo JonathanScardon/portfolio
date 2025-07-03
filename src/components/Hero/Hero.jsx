@@ -21,7 +21,7 @@ function Hero() {
             <TerminalBody>
                 <TerminalLine>
                     <span>~/jonathan_s$</span>{' '}
-                    <Typewriter
+                    {/* <Typewriter
               words={[
                 'hello world',
                 'welcome to my website!',
@@ -32,7 +32,7 @@ function Hero() {
               typeSpeed={70}
               deleteSpeed={40}
               delaySpeed={2000}
-            />
+            /> */}
                 </TerminalLine>
             </TerminalBody>
 

@@ -6,6 +6,8 @@ import SudokuImg from "../assets/Projects/Sudoku.png"
 import { IoLogoJavascript } from "react-icons/io5";
 
 
+
+
 export const projects = [
     {
         title: "Super Food Chain",
@@ -80,4 +82,16 @@ export const skills = [
         ],
         id: 2,
     },
+]
+
+export const footerLinks = [
+    {
+        iconClass: "devicon-linkedin-plain",
+        link: "https://www.google.com/",
+    },
+
+    {
+        iconClass: "devicon-github-original",
+        link: "https://www.google.com/",
+    }
 ]
