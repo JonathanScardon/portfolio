@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const SectionContainer = styled.div`
   padding-left: 15%;
   padding-right: 15%;
-  background:#121212;
+  background:rgb(18, 18, 18);
 
 
 
@@ -11,13 +11,10 @@ export const SectionContainer = styled.div`
 
   color:white;
 
-  // background: #e4e4e4;
-
-  // background:#F5F5F5;
-
 `;
 
 
 export const Subheading = styled.h2`
-
+text-align:center;
+font-size:2.5rem;
 `

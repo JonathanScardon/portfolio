@@ -24,15 +24,13 @@ text-align: center;
 //   border-width:1px;
 color:#F8F8FF	;
 
-// color:black;
+color:black;
+
 
 // border: 1px solid #E0E0E0 ;
 
 
-background:	#222222	;   light black//
-
-// background:#F5F5F5;
-background: #e4e4e4;
+// background:	#222222	;   light black//
 
 border-radius: 4%;
 
@@ -51,7 +49,6 @@ font-family: 'Cascadia Code', monospace;
 
 `
 
-
 export const Title = styled.h3`
 // margin: auto;
 font-size:150%;
@@ -59,10 +56,15 @@ color: rgb(131, 195, 255);
 `
 
 export const ProjectImg = styled.img`
-width: 90%;
-border-radius:2%;
-
-`
+  max-width: 90%;         // scales horizontally
+  max-height: 275px;      // caps tall images
+  height: auto;           // preserves aspect ratio
+  width: auto;            // allows natural width scaling
+  border-radius: 2%;
+  display: block;
+  margin: 0 auto;
+  object-fit: contain;    // makes sure image fits without cropping
+`;
 
 export const ProjectDescription = styled.div`
 margin-top:2rem;
