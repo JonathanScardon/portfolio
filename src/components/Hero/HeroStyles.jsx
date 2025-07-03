@@ -1,14 +1,12 @@
 import styled from 'styled-components';
 
 export const HeroContainer = styled.div`
-// height: 80vh;
-  background-color: #111;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 20vh;
-  padding-bottom: 50vh;
+  padding-top: 15vh;
+  padding-bottom: 60vh;
   gap: 5vh;
   // padding: 0 20px;
 `
