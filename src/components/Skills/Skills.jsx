@@ -1,10 +1,10 @@
 import {skills} from "../../Data/Data.jsx"
-import {Subheading} from "../../globalStyles.jsx"
+import {SectionContainer, Subheading} from "../../globalStyles.jsx"
 import {SkillsContainer, SkillGroup, SkillHeader, SkillIcon, GroupName, TechList, TechIcon, TechItem} from "./SkillsStyles.jsx"
 
 function Skills(){
     return(
-        <>
+        <SectionContainer>
         <Subheading>
             Skills
         </Subheading>
@@ -59,7 +59,7 @@ function Skills(){
             })}
 
         </SkillsContainer>
-        </>
+        </SectionContainer>
     )
 }
 
