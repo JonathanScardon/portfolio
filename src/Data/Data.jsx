@@ -12,7 +12,7 @@ export const projects = [
     {
         title: "Super Food Chain",
         image: SuperFoodChainImg,
-        link: "",
+        link: "https://github.com/JonathanScardon/SuperFoodChain",
         descriptionParts: [
             "Designed and built a fast paced action-survival game with 15 unique levels using the model-view-controller architecture. Presented at the annual ",
             {
@@ -29,7 +29,7 @@ export const projects = [
     {
         title: "Word Hunt",
         image: WordHuntImg,
-        link: "",
+        link: "https://github.com/JonathanScardon/Word-Hunt",
         descriptionParts: [
             "Implemented a word game offering players an interactive play mode and a puzzle solver. Currently refactoring the interface in React and designing original art in Piskel."
         ],
@@ -41,7 +41,7 @@ export const projects = [
     {
         title: "OCaml Life",
         image: OCamlLifeImg,
-        link: "",
+        link: "https://github.com/JonathanScardon/OCaml-Life",
         descriptionParts: [
             "Developed a holistic planner assisting users in managing all aspects of their lives, from emotional & physical health to financial goals."
         ],
@@ -53,13 +53,13 @@ export const projects = [
     {
         title: "Sudoku",
         image: SudokuImg,
-        link: "",
+        link: "https://github.com/JonathanScardon/Sudoku",
         descriptionParts: [
             "Recreated the classic Sudoku puzzle in Python with a GUI built in CustomTkinter."
         ],
         tools: ["Python"],
         id: 3,
-    }
+    },
 ]
 
 export const skills = [
