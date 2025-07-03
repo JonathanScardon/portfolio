@@ -1,30 +1,21 @@
 import styled from 'styled-components';
 
 
-
 export const ProjectGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill, 450px);
   gap: 5rem;
   padding: 2rem;
   justify-content: center;
-  // background: green;
-  // border-style:solid;
   border-width:1px;
 `;
 
-
-
-// Project box styling
 export const ProjectContainer = styled.div`
 text-align: center;
-// width: 400px;
-// background:grey;
-// border-style:solid;
-//   border-width:1px;
-color:#F8F8FF	;
 
-color:black;
+
+color:rgb(248, 248, 255);
+color: rgb(204, 204, 204);
 
 
 // border: 1px solid #E0E0E0 ;
@@ -37,12 +28,7 @@ border-radius: 4%;
 
 
 
-box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
-
-
-color: #CCCCCC;
-
-
+box-shadow: 0 0 8px rgba(255, 255, 255, .3);
 
 
 font-family: 'Cascadia Code', monospace;
@@ -53,6 +39,7 @@ export const Title = styled.h3`
 // margin: auto;
 font-size:150%;
 color: rgb(131, 195, 255);
+color: #60a5fa;
 `
 
 export const ProjectImg = styled.img`
@@ -69,11 +56,14 @@ export const ProjectImg = styled.img`
 export const ProjectDescription = styled.div`
 margin-top:2rem;
 margin-bottom:3rem;
+margin-left:5%;
+margin-right:5%;
 `
 
 
 export const ToolsHeader = styled.div`
-color:#ffb042
+color: #f59e0b;
+color:rgb(218, 145, 18);
 `
 
 export const ToolsList = styled.ul`
@@ -86,14 +76,18 @@ display:inline-block;
 padding: 4px 8px;
 margin: 4px;
 
-
-
-
 border-radius:4px;
 
 color:#e6e6e6;
 
-// background: #62a7e8;
-background: rgb(6, 122, 12);
+background: rgb(5, 94, 9);
+// background: rgb(4, 78, 8);
+
+`
+
+
+export const SupportLink = styled.a`
+color: inherit;
+text-decoration-color: rgb(130, 130, 130);
 
 `

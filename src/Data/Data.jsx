@@ -13,7 +13,15 @@ export const projects = [
         title: "Super Food Chain",
         image: SuperFoodChainImg,
         link: "",
-        description: "this was a game from a class i was in. it was 3152. it was ran by walker white. it was very stressful sometimes",
+        descriptionParts: [
+            "Designed and built a fast paced action-survival game with 15 unique levels using the model-view-controller architecture. Presented at the annual ",
+            {
+            "type": "link",
+            "text": "GDIAC Showcase",
+            "url": "https://gdiac.cs.cornell.edu/gdiac/showcase/gallery/superfoodchain/"
+            },
+            " to over 200 attendees."
+        ],
         tools: ["Java"],
         id: 0,
     },
@@ -22,8 +30,11 @@ export const projects = [
         title: "Word Hunt",
         image: WordHuntImg,
         link: "",
-        description: "word game that I am currently redoing because the old version is really ugly and kind of bad",
-        tools: ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express.js"],
+        descriptionParts: [
+            "Implemented a word game offering players an interactive play mode and a puzzle solver. Currently refactoring the interface in React and designing original art in Piskel."
+        ],
+
+        tools: ["HTML", "CSS", "JavaScript", "React", "Node.js"],
         id: 1,
     },
 
@@ -31,7 +42,9 @@ export const projects = [
         title: "OCaml Life",
         image: OCamlLifeImg,
         link: "",
-        description: "life tracker from cs 3110. group project. not my favorite but it is still something I made",
+        descriptionParts: [
+            "Developed a holistic planner assisting users in managing all aspects of their lives, from emotional & physical health to financial goals."
+        ],
         tools: ["OCaml"],
         id: 2,
     },
@@ -41,7 +54,9 @@ export const projects = [
         title: "Sudoku",
         image: SudokuImg,
         link: "",
-        description: "puzzle game",
+        descriptionParts: [
+            "Recreated the classic Sudoku puzzle in Python with a GUI built in CustomTkinter."
+        ],
         tools: ["Python"],
         id: 3,
     }

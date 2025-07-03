@@ -17,4 +17,5 @@ export const SectionContainer = styled.div`
 export const Subheading = styled.h2`
 text-align:center;
 font-size:2.5rem;
+color: #e2e8f0;
 `
