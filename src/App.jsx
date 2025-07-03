@@ -9,19 +9,19 @@ import Skills from "./components/Skills/Skills.jsx"
 import About from "./components/About/About.jsx"
 import Footer from "./components/Footer/Footer.jsx"
 
-import {SectionContainer} from "./globalStyles.jsx"
+import {Layout} from "./globalStyles.jsx"
 
 function App() {
   return (
     <>
-      <SectionContainer>
+      <Layout>
         <Navigation/> 
         <Hero/>
         <Projects/>
         <Skills/>
         <About/>
         <Footer/>
-      </SectionContainer>
+      </Layout>
     </>
   )
 }

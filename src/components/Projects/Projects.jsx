@@ -1,10 +1,10 @@
 import {ProjectGrid, ProjectContainer, Title, ProjectImg, ProjectDescription, ToolsHeader, ToolsList, ToolItem, SupportLink} from "./ProjectStyles.jsx"
-import {Subheading} from "../../globalStyles.jsx"
+import {SectionContainer, Subheading} from "../../globalStyles.jsx"
 import {projects} from "../../Data/Data.jsx"
 
 function Projects(){
     return(
-        <>
+        <SectionContainer>
         <Subheading>Projects</Subheading>
         <ProjectGrid>
 
@@ -59,7 +59,7 @@ function Projects(){
 
         </ProjectGrid>
 
-        </>
+        </SectionContainer>
     )
 }
 

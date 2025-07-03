@@ -1,10 +1,10 @@
 import {AboutContainer, Headshot, Intro} from './AboutStyles.jsx'
-import {Subheading} from '../../globalStyles.jsx'
+import {SectionContainer, Subheading} from '../../globalStyles.jsx'
 
 function About(){
     return(
 
-        <>
+        <SectionContainer>
         <Subheading>About</Subheading>
 
         <AboutContainer>
@@ -31,7 +31,7 @@ function About(){
             <Headshot src="/public/images/Headshot.JPG" alt="" />
         </AboutContainer>
 
-        </>
+        </SectionContainer>
     )
 }
 
