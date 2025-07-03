@@ -19,7 +19,9 @@ function Projects(){
                             {p.title}
                         </Title>
 
+                        <a href = {p.link} target = "_blank">
                         <ProjectImg src = {p.image}/>
+                        </a>
 
                        <ProjectDescription>
                             {p.descriptionParts.map((part, index) => {
