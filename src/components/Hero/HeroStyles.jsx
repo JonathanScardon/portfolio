@@ -1,14 +1,16 @@
 import styled from 'styled-components';
 
 export const HeroContainer = styled.div`
-height: 100vh;
+// height: 80vh;
   background-color: #111;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 40px;
-  padding: 0 20px;
+  padding-top: 20vh;
+  padding-bottom: 50vh;
+  gap: 5vh;
+  // padding: 0 20px;
 `
 
 export const Name = styled.div`

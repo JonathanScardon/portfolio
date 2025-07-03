@@ -4,14 +4,19 @@ function Navigation() {
   return (
     <NavBar>
       <NavList>
+
         <NavItem>
-          <NavLink href="#home">Home</NavLink>
+          <NavLink href="#home">Projects</NavLink>
         </NavItem>
+
         <NavItem>
-          <NavLink href="#about">About</NavLink>
+          <NavLink href="#about">Skills</NavLink>
         </NavItem>
-        <NavItem/>
-          <NavLink href="#">Technologies</NavLink>
+
+        <NavItem>
+          <NavLink href="#">About</NavLink>
+        </NavItem>
+        
       </NavList>
     </NavBar>
   );
