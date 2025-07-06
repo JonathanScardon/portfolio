@@ -6,15 +6,15 @@ function Navigation() {
       <NavList>
 
         <NavItem>
-          <NavLink href="#home">Projects</NavLink>
+          <NavLink href="#projects">Projects</NavLink>
         </NavItem>
 
         <NavItem>
-          <NavLink href="#about">Skills</NavLink>
+          <NavLink href="#skills">Skills</NavLink>
         </NavItem>
 
         <NavItem>
-          <NavLink href="#">About</NavLink>
+          <NavLink href="#about">About</NavLink>
         </NavItem>
         
       </NavList>

@@ -5,9 +5,7 @@ import {SkillsContainer, SkillGroup, SkillHeader, SkillIcon, GroupName, TechList
 function Skills(){
     return(
         <SectionContainer>
-        <Subheading>
-            Skills
-        </Subheading>
+        <Subheading id = "skills">Skills</Subheading>
 
         <SkillsContainer>
 

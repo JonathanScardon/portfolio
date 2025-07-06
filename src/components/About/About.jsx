@@ -5,7 +5,7 @@ function About(){
     return(
 
         <SectionContainer>
-        <Subheading>About</Subheading>
+        <Subheading id = "about">About</Subheading>
 
         <AboutContainer>
             <Headshot src="/public/images/Headshot.JPG" alt="" />

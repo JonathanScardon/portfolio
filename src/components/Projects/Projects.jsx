@@ -5,7 +5,7 @@ import {projects} from "../../Data/Data.jsx"
 function Projects(){
     return(
         <SectionContainer>
-        <Subheading>Projects</Subheading>
+        <Subheading id = "projects">Projects</Subheading>
         <ProjectGrid>
 
 
