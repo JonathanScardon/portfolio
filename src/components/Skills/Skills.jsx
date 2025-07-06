@@ -1,6 +1,6 @@
 import {skills} from "../../Data/Data.jsx"
 import {SectionContainer, Subheading, SectionLink} from "../../globalStyles.jsx"
-import {SkillsContainer, SkillGroup, SkillHeader, SkillIcon, GroupName, TechList, TechIcon, TechItem} from "./SkillsStyles.jsx"
+import {SkillsContainer, SkillGroup, SkillHeader, TechList, TechIcon, TechItem} from "./SkillsStyles.jsx"
 
 function Skills(){
     return(
@@ -16,22 +16,11 @@ function Skills(){
 
                         <SkillHeader>
 
-                            <SkillIcon src = {s.image}/>
-
-                            <GroupName>
+                            <h3>
                                 {s.group}
-                            </GroupName>
+                            </h3>
 
                         </SkillHeader>
-
-                        {/* <TechList>
-                            {s.tools.map((t, i) => (
-                                <div key={i}>
-                                <img src={t.image} alt={t.name} />
-                                <TechItem>{t.name}</TechItem>
-                            </div>
-                        ))}
-                        </TechList> */}
 
                         <TechList>
                             {s.tools.map((t, i) => {
@@ -43,15 +32,6 @@ function Skills(){
                                 )
                             })}
                         </TechList>
-
-                        {/* <TechList>
-                            {s.tools.map((t, i) => {
-                                return (
-                                    <TechItem key = {i}>{t.name}</TechItem>
-                                )
-                            })}
-                        </TechList> */}
-
 
                     </SkillGroup>          
                 )

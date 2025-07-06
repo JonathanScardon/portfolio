@@ -1,11 +1,14 @@
-// import styled from 'styled-components';
+import React, { useRef, useEffect, useState } from 'react';
+import styled from 'styled-components';
+
 
 export const Layout = styled.div`
   padding-left: 15%;
   padding-right: 15%;
   background:rgb(18, 18, 18);
   padding-bottom: 10px;
-  color:white;
+  color: rgb(225, 232, 240);
+  font-family: "IBM Plex Mono", monospace;
 `
 
 export const SectionLink = styled.div`
@@ -16,13 +19,7 @@ font-size: 1px;
 export const Subheading = styled.h2`
 text-align:center;
 font-size:2.5rem;
-color: #e2e8f0;
 `
-
-
-// FadeInOnScroll.js
-import React, { useRef, useEffect, useState } from 'react';
-import styled from 'styled-components';
 
 const Wrapper = styled.div`
   opacity: ${props => (props.visible ? 1 : 0)};

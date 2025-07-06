@@ -3,10 +3,6 @@ import WordHuntImg from "../assets/Projects/WordHunt.png"
 import OCamlLifeImg from "../assets/Projects/OCamlLife.png"
 import SudokuImg from "../assets/Projects/Sudoku.png"
 
-import { IoLogoJavascript } from "react-icons/io5";
-
-
-
 
 export const projects = [
     {
@@ -65,7 +61,6 @@ export const projects = [
 export const skills = [
     {
         group: "Frontend",
-
         tools: [
             {name: "HTML", image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"},
             {name: "CSS", image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"},
@@ -77,7 +72,6 @@ export const skills = [
     
     {
         group: "Backend",
-        image: "",
         tools: [
             {name: "Node.js", image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-plain-wordmark.svg"},
             {name: "SQL", image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg"}
@@ -87,7 +81,6 @@ export const skills = [
 
     {
         group: "Languages",
-        image: "",
         tools: [
             {name: "Python", image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"},
             {name: "Java", image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"},

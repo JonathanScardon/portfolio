@@ -1,24 +1,18 @@
-import { NavBar, NavList, NavItem, NavLink } from './NavigationStyles';
+import {NavList, NavLink } from './NavigationStyles';
 
 function Navigation() {
   return (
-    <NavBar>
-      <NavList>
-
-        <NavItem>
-          <NavLink href="#projects">Projects</NavLink>
-        </NavItem>
-
-        <NavItem>
-          <NavLink href="#skills">Skills</NavLink>
-        </NavItem>
-
-        <NavItem>
-          <NavLink href="#about">About</NavLink>
-        </NavItem>
-        
-      </NavList>
-    </NavBar>
+    <NavList>
+      <li>
+        <NavLink href="#projects">Projects</NavLink>
+      </li>
+      <li>
+        <NavLink href="#skills">Skills</NavLink>
+      </li>
+      <li>
+        <NavLink href="#about">About</NavLink>
+      </li>  
+    </NavList>
   );
 }
 

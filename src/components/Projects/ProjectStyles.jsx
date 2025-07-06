@@ -43,14 +43,14 @@ color: #60a5fa;
 `
 
 export const ProjectImg = styled.img`
-  max-width: 90%;         // scales horizontally
-  max-height: 275px;      // caps tall images
-  height: auto;           // preserves aspect ratio
-  width: auto;            // allows natural width scaling
+  max-width: 90%;
+  max-height: 275px;
+  height: auto;
+  width: auto;
   border-radius: 2%;
   display: block;
   margin: 0 auto;
-  object-fit: contain;    // makes sure image fits without cropping
+  object-fit: contain;
 `;
 
 export const ProjectDescription = styled.div`
@@ -62,7 +62,6 @@ margin-right:5%;
 
 
 export const ToolsHeader = styled.div`
-color: #f59e0b;
 color:rgb(218, 145, 18);
 `
 
@@ -75,14 +74,8 @@ export const ToolItem = styled.li`
 display:inline-block;
 padding: 4px 8px;
 margin: 4px;
-
 border-radius:4px;
-
-color:#e6e6e6;
-
 background: rgb(5, 94, 9);
-// background: rgb(4, 78, 8);
-
 `
 
 

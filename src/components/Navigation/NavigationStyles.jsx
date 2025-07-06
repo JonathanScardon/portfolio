@@ -1,18 +1,5 @@
 import styled from 'styled-components';
 
-export const NavBar = styled.nav`
-  // display: block;
-  width: 100%;
-
-    // background-color: #1A1A1A;
-
-
-    // border-bottom: 1px solid #444; /* subtle grey */
-    
-
-
-  // position: fixed;
-`;
 
 export const NavList = styled.ul`
   list-style-type: none;
@@ -21,13 +8,8 @@ export const NavList = styled.ul`
   display: flex;
   justify-content: center;
   align-items: center;
-  // background-color: black;
   width: 100%;
   height: 80px;
-`;
-
-export const NavItem = styled.li`
-  /* no styles needed here unless you want */
 `;
 
 export const NavLink = styled.a`

@@ -8,7 +8,6 @@ export const HeroContainer = styled.div`
   padding-top: 15vh;
   padding-bottom: 40vh;
   gap: 5vh;
-  // padding: 0 20px;
 `
 
 export const Name = styled.div`
@@ -24,6 +23,7 @@ export const TerminalContainer = styled.div`
   max-width: 90%;
   border-radius: 8px;
   box-shadow: 0 0 20px #16f2b3;
+  font-family: 'Fira Code', monospace;
 `
 
 export const TerminalHeader = styled.div`
@@ -58,7 +58,6 @@ export const GreenDot = styled(Dot)`
 export const TerminalTitle = styled.p`
  color: #aaa;
   margin-left: auto;
-  font-family: 'Fira Code', monospace;
   font-size: 0.9rem;
 `
 
@@ -66,10 +65,5 @@ export const TerminalBody = styled.div`
 // padding: 20px;p
 padding-left: 2%;
   color: #16f2b3;
-  font-family: 'Fira Code', monospace;
   font-size: 1.1rem;
-`
-
-export const TerminalLine = styled.p`
-
 `

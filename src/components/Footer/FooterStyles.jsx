@@ -1,23 +1,8 @@
 import styled from 'styled-components';
 
-// export const FooterContainer = styled.div`
-// // background:lightblue;
-// `
-
-// export const ItemsContainer = styled.ul`
-// list-style-type: None;
-// `
-
-// export const ItemTag = styled.li`
-// `
-
-// export const ItemLink = styled.a`
-// color: 'inherit'
-// `
-
 export const FooterWrapper = styled.footer`
   display: flex;
-  justify-content: right;
+  justify-content: center;
   gap: 20px;
   padding: 20px;
   border-top: 1px solid #444; /* subtle grey */
@@ -37,7 +22,7 @@ export const IconLink = styled.a`
   text-decoration:None;
   transition: transform 0.25s ease;
 
-  margin-left: 12%;
+  // margin-left: 12%;
 
   &:hover {
    transform: translateY(-5px);
@@ -49,5 +34,6 @@ export const IconLink = styled.a`
 `;
 
 export const Test = styled.div`
+padding-top:15px;
 text-align:center;
 `

@@ -1,7 +1,7 @@
 import { Typewriter } from 'react-simple-typewriter';
 import {SectionContainer} from '../../globalStyles.jsx'
 import {HeroContainer, Name, TerminalContainer, TerminalHeader, RedDot, GreenDot, YellowDot, 
-TerminalTitle, TerminalBody, TerminalLine} from './HeroStyles.jsx'
+TerminalTitle, TerminalBody} from './HeroStyles.jsx'
 
 function Hero() {
   return (
@@ -21,7 +21,7 @@ function Hero() {
             </TerminalHeader>
 
             <TerminalBody>
-                <TerminalLine>
+                <p>
                     <span>~/jonathan_s$</span>{' '}
                     <Typewriter
               words={[
@@ -35,7 +35,7 @@ function Hero() {
               deleteSpeed={40}
               delaySpeed={2000}
             />
-                </TerminalLine>
+                </p>
             </TerminalBody>
 
         </TerminalContainer>
