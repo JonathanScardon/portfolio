@@ -2,29 +2,69 @@ import styled from 'styled-components';
 
 
 export const AboutContainer = styled.div`
-display: flex;
+// display: flex;
+// align-items: center;
+// justify-content: space-between;
+// gap: 1rem;
+// // padding-top: 50px;
+// padding-bottom: 50px;
+
+// // height: 1000px;
+
+
+display: grid;
+grid-template-columns: 35% 65%;
+
+padding-left: 12%;
+padding-right: 12%;
+gap: 5%;
 align-items: center;
-justify-content: space-between;
-gap: 1rem;
-// padding-top: 50px;
-padding-bottom: 50px;
-
-// height: 1000px;
 `
-
 
 
 export const Headshot = styled.img`
-width: 200px;
-height: auto;
-border-radius: 8px;
-display: block;
-`
+  max-width: 100%;
+  height: auto;
 
-export const Intro = styled.div`
-// background:	#222222	;
-// border-radius:1%;
-// border-style:solid;
-// border-width:1px;
-// padding:10px;
-`
+// max-height:400px;
+// width:auto;
+  border-radius: 8px;
+  display: block;
+  background-color: green;
+  object-fit: cover;
+`;
+
+export const Bio = styled.div`
+//   background: lightblue;
+  width: 100%;
+  display:flex;
+  justify-content:center;
+  font-size:17px;
+`;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// export const Headshot = styled.img`
+// max-width: 300px;
+// height: auto;
+// border-radius: 8px;
+// display: block;
+// background-color:green;
+// `
+
+// export const Bio = styled.div`
+// background:lightblue;
+// `
