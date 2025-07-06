@@ -102,11 +102,16 @@ export const skills = [
 export const footerLinks = [
     {
         iconClass: "devicon-linkedin-plain",
-        link: "https://www.google.com/",
+        link: "https://www.linkedin.com/in/jonathan-scardon-691644327/",
     },
 
     {
         iconClass: "devicon-github-original",
-        link: "https://www.google.com/",
-    }
+        link: "https://github.com/JonathanScardon",
+    },
+
+    {
+        iconClass: "far fa-envelope",
+        link: "mailto:jxs2372@gmail.com/",
+    },
 ]

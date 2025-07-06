@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+// import styled from 'styled-components';
 
 export const Layout = styled.div`
   padding-left: 15%;
@@ -8,13 +8,42 @@ export const Layout = styled.div`
   color:white;
 `
 
-export const SectionContainer = styled.div`
-padding-bottom: 100px;
-`
-
 
 export const Subheading = styled.h2`
 text-align:center;
 font-size:2.5rem;
 color: #e2e8f0;
 `
+
+
+// FadeInOnScroll.js
+import React, { useRef, useEffect, useState } from 'react';
+import styled from 'styled-components';
+
+const Wrapper = styled.div`
+  opacity: ${props => (props.visible ? 1 : 0)};
+  transform: translateY(${props => (props.visible ? '0px' : '20px')});
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+`;
+
+export const SectionContainer = ({ children }) => {
+  const ref = useRef();
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setVisible(true);
+          observer.unobserve(ref.current);
+        }
+      },
+      { threshold: 0.1 }
+    );
+
+    observer.observe(ref.current);
+    return () => observer.disconnect();
+  }, []);
+
+  return <Wrapper style = {{paddingBottom: '100px'}} ref={ref} visible={visible}>{children}</Wrapper>;
+};
