@@ -1,11 +1,12 @@
 import {skills} from "../../Data/Data.jsx"
-import {SectionContainer, Subheading} from "../../globalStyles.jsx"
+import {SectionContainer, Subheading, SectionLink} from "../../globalStyles.jsx"
 import {SkillsContainer, SkillGroup, SkillHeader, SkillIcon, GroupName, TechList, TechIcon, TechItem} from "./SkillsStyles.jsx"
 
 function Skills(){
     return(
         <SectionContainer>
-        <Subheading id = "skills">Skills</Subheading>
+        <SectionLink id = "skills">0</SectionLink>
+        <Subheading>Skills</Subheading>
 
         <SkillsContainer>
 

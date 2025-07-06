@@ -1,11 +1,12 @@
 import {ProjectGrid, ProjectContainer, Title, ProjectImg, ProjectDescription, ToolsHeader, ToolsList, ToolItem, SupportLink} from "./ProjectStyles.jsx"
-import {SectionContainer, Subheading} from "../../globalStyles.jsx"
+import {SectionContainer, Subheading, SectionLink} from "../../globalStyles.jsx"
 import {projects} from "../../Data/Data.jsx"
 
 function Projects(){
     return(
         <SectionContainer>
-        <Subheading id = "projects">Projects</Subheading>
+        <SectionLink id = "projects">0</SectionLink>
+        <Subheading>Projects</Subheading>
         <ProjectGrid>
 
 

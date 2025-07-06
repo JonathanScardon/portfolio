@@ -8,6 +8,10 @@ export const Layout = styled.div`
   color:white;
 `
 
+export const SectionLink = styled.div`
+color: rgb(18, 18, 18);
+font-size: 1px;
+`
 
 export const Subheading = styled.h2`
 text-align:center;

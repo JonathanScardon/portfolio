@@ -1,11 +1,12 @@
 import {AboutContainer, Headshot, Bio} from './AboutStyles.jsx'
-import {SectionContainer, Subheading} from '../../globalStyles.jsx'
+import {SectionContainer, Subheading, SectionLink} from '../../globalStyles.jsx'
 
 function About(){
     return(
 
         <SectionContainer>
-        <Subheading id = "about">About</Subheading>
+        <SectionLink id = "about">0</SectionLink>
+        <Subheading>About</Subheading>
 
         <AboutContainer>
             <Headshot src="/public/images/Headshot.JPG" alt="" />
