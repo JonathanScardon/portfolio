@@ -21,6 +21,13 @@ text-align:center;
 font-size:2.5rem;
 `
 
+
+export const SupportLink = styled.a`
+color: inherit;
+text-decoration-color: rgb(130, 130, 130);
+`
+
+
 const Wrapper = styled.div`
   opacity: ${props => (props.visible ? 1 : 0)};
   transform: translateY(${props => (props.visible ? '0px' : '20px')});

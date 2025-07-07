@@ -20,35 +20,5 @@ export const Headshot = styled.img`
 `;
 
 export const Bio = styled.div`
-  width: 100%;
-  display:flex;
-  justify-content:center;
-  font-size:15px;
+  font-size: clamp(10px, 2vw, 22px);
 `;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// export const Headshot = styled.img`
-// max-width: 300px;
-// height: auto;
-// border-radius: 8px;
-// display: block;
-// background-color:green;
-// `
-
-// export const Bio = styled.div`
-// background:lightblue;
-// `

@@ -25,4 +25,5 @@ export const IconLink = styled.a`
 export const Message = styled.div`
 padding-top:15px;
 text-align:center;
+font-size: clamp(8px, 2vh, 13px)
 `

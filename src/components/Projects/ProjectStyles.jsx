@@ -77,10 +77,3 @@ margin: 4px;
 border-radius:4px;
 background: rgb(5, 94, 9);
 `
-
-
-export const SupportLink = styled.a`
-color: inherit;
-text-decoration-color: rgb(130, 130, 130);
-
-`

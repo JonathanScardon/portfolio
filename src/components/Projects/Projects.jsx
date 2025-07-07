@@ -1,5 +1,5 @@
-import {ProjectGrid, ProjectContainer, Title, ProjectImg, ProjectDescription, ToolsHeader, ToolsList, ToolItem, SupportLink} from "./ProjectStyles.jsx"
-import {SectionContainer, Subheading, SectionLink} from "../../globalStyles.jsx"
+import {ProjectGrid, ProjectContainer, Title, ProjectImg, ProjectDescription, ToolsHeader, ToolsList, ToolItem} from "./ProjectStyles.jsx"
+import {SectionContainer, Subheading, SectionLink, SupportLink} from "../../globalStyles.jsx"
 import {projects} from "../../Data/Data.jsx"
 
 function Projects(){
@@ -8,7 +8,6 @@ function Projects(){
         <SectionLink id = "projects">0</SectionLink>
         <Subheading>Projects</Subheading>
         <ProjectGrid>
-
 
             {projects.map((p, i) => {
 
@@ -43,7 +42,6 @@ function Projects(){
                             })}
                         </ProjectDescription>
 
-
                         <ToolsHeader>Tools</ToolsHeader>
                         <ToolsList>
                             {p.tools.map((t, i) => {
@@ -53,10 +51,7 @@ function Projects(){
 
                     </ProjectContainer>
                 )
-            }
-            )
-            }
-
+            })}
 
         </ProjectGrid>
 

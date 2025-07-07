@@ -31,9 +31,9 @@ function Hero() {
               loop={0}
               cursor
               cursorStyle="▋"
-              typeSpeed={100}
-              deleteSpeed={40}
-              delaySpeed={2000}
+              typeSpeed={55}
+              deleteSpeed={45}
+              delaySpeed={1500}
             />
                 </p>
             </TerminalBody>
