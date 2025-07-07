@@ -1,5 +1,6 @@
 import {AboutContainer, Headshot, Bio} from './AboutStyles.jsx'
 import {SectionContainer, Subheading, SectionLink, SupportLink} from '../../globalStyles.jsx'
+import headshot from '../../assets/Images/Headshot.JPG';
 
 function About(){
     return(
@@ -9,7 +10,7 @@ function About(){
         <Subheading>About</Subheading>
 
         <AboutContainer>
-            <Headshot src="/public/images/Headshot.JPG" alt="" />
+            <Headshot src= {headshot} alt="" />
             <Bio>
                 Hi, I’m Jonathan!  I’m a Computer Science student at Cornell University’s College of Engineering. I enjoy
                 using programming to create purposeful applications and solve difficult problems.
