@@ -24,7 +24,7 @@ font-size:2.5rem;
 const Wrapper = styled.div`
   opacity: ${props => (props.visible ? 1 : 0)};
   transform: translateY(${props => (props.visible ? '0px' : '20px')});
-  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  transition: opacity 1.5s ease-out, transform .5s ease-out;
 `;
 
 export const SectionContainer = ({ children }) => {

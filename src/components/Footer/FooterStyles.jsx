@@ -5,35 +5,24 @@ export const FooterWrapper = styled.footer`
   justify-content: center;
   gap: 20px;
   padding: 20px;
-  border-top: 1px solid #444; /* subtle grey */
+  border-top: 1px solid #444;
 `;
 
-export const Links = styled.div`
-display:flex;
-justify-content: center;
-`
-
 export const IconLink = styled.a`
-  color: white;                // white icons
-  font-size: 2rem;             // control size
+  color: white;
+  font-size: 2rem;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   text-decoration:None;
   transition: transform 0.25s ease;
 
-  // margin-left: 12%;
-
   &:hover {
    transform: translateY(-5px);
   }
-
-//   i {
-//     vertical-align: middle;
-//   }
 `;
 
-export const Test = styled.div`
+export const Message = styled.div`
 padding-top:15px;
 text-align:center;
 `
