@@ -25,7 +25,7 @@ export const projects = [
     {
         title: "Word Hunt",
         image: WordHuntImg,
-        link: "https://wordhunt-one.vercel.app/",
+        link: "https://wordhunt-one.vercel.app",
         descriptionParts: [
             "Implemented a word game offering players an interactive play mode and a puzzle solver. Currently refactoring the interface in React and designing original art in Piskel."
         ],
