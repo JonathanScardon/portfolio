@@ -16,7 +16,7 @@ export const projects = [
             "text": "GDIAC Showcase",
             "url": "https://gdiac.cs.cornell.edu/gdiac/showcase/gallery/superfoodchain/"
             },
-            " to over 200 attendees."
+            " to over 475 attendees."
         ],
         tools: ["Java"],
         id: 0,
@@ -27,10 +27,10 @@ export const projects = [
         image: WordHuntImg,
         link: "https://wordhunt-one.vercel.app",
         descriptionParts: [
-            "Implemented a word game offering players an interactive play mode and a puzzle solver. Currently refactoring the interface in React and designing original art in Piskel."
+            "Implemented a word game offering players an interactive play mode and a puzzle solver."
         ],
 
-        tools: ["HTML", "CSS", "JavaScript", "React", "Node.js"],
+        tools: ["React", "Node.js"],
         id: 1,
     },
 
