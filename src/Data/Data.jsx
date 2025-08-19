@@ -27,7 +27,7 @@ export const projects = [
         image: WordHuntImg,
         link: "https://wordhunt-one.vercel.app",
         descriptionParts: [
-            "Implemented a word game offering players an interactive play mode and a puzzle solver."
+            "Implemented a word game offering players an interactive play mode and a puzzle solver. Designed a responsive React interface that highlights player guesses and shows solution paths on the board."
         ],
 
         tools: ["React", "Node.js"],
